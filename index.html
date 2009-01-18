@@ -1,0 +1,11 @@
+---
+layout: default
+title: genlevel
+---
+
+<h2>Recordings</h2>
+<ul class="tracks">
+  {% for post in site.posts %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
